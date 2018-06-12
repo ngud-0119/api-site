@@ -1,6 +1,6 @@
 body {
-    background-color: lightgray;
-    background-size: cover;    
+    background-image: url(../images/what-the-hex.png);
+    background-repeat: repeat;   
 }
 
 .container {
