@@ -30,7 +30,7 @@ var topicArray = ["Coffee", "Pizza", "Sushi", "Burritos", "Steak", "Seafood", "B
 
     function showGifs(){
         var foodChoice = $(this).attr("data-name");
-        var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + foodChoice + "&api_key=ahbCxqFdx1cR2Kf5VDqdp3djLKDGm81E&limit=10";
+        var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + foodChoice + "&api_key=ahbCxqFdx1cR2Kf5VDqdp3djLKDGm81E&limit=10";
         $.ajax({
             url: queryURL,
             method: 'GET'
